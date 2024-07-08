@@ -1,0 +1,120 @@
+@media (max-width: 501px) {
+    .see-intro {
+        width: 60% !important;
+    }
+}
+@media (min-width: 300px) and (max-width: 768px) {
+    .header {
+        height: auto;
+    }
+    .header__left {
+        width: 100%;
+    }
+    .header__right {
+        display: none;
+    }
+    .header-main {
+        display: none;
+    }
+    .header-mobile-wrapper {
+        display: block;
+    }
+    .header__logo-img {
+        height: 50px;
+    }
+    .header__menu-search-btn {
+        padding: 15px;
+    }
+    .search__box-wrapper {
+        top: 50px;
+        right: 0px;
+    }
+    /* slide */
+    .carousel-img {
+        height: auto;
+    }
+    /* introduction */
+    .intro-left {
+        display: none;
+    }
+    .intro-right {
+        width: 100%;
+    }
+    .see-intro {
+        width: 40%;
+    }
+
+    /* technology */
+    .mobile-d-none {
+        display: none;
+    }
+
+    /* service */
+    .service__link {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .service__title {
+        padding: 10px 20px;
+    }
+    /* product */
+    .product__img-wrapper {
+        height: 200px;
+    }
+    .card__bottom {
+        height: 55px;
+    }
+    .product__title-wrapper {
+        padding: 10px 15px;
+    }
+    .product__title {
+        font-size: 15px;
+    }
+
+    /* product detail page */
+    .section-product-detail {
+        margin-top: 80px;
+    }
+    .section-product-detail  > div > h1.title-main {
+        font-size: 2rem;
+    }
+    .product__detail {
+        -webkit-line-clamp: 4;
+    }
+    .content-right {
+        margin-left: 10px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .header {
+        height: auto;
+    }
+    .header__left {
+        width: 100%;
+    }
+    .header__right {
+        display: none;
+    }
+    .header-main {
+        display: none;
+    }
+    .header-mobile-wrapper {
+        display: block;
+    }
+    .header__logo-img {
+        height: 50px;
+    }
+    .header__menu-search-btn {
+        padding: 15px;
+    }
+    .search__box-wrapper {
+        top: 50px;
+        right: 0px;
+    }
+    .see-intro {
+        width: 51%;
+    }
+}
+@media (min-width: 768px) {
+    
+}
